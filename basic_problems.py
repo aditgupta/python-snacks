@@ -16,7 +16,7 @@ print(count_items(list_numbers))
 def count_items_another(sequence) -> dict:
     result = {}
     for item in sequence:
-        result[item] = result.get(item, 0) + 1  # get the value of the key, if not present, return 0
+        result[item] = result.get(item, 0) + 1  # get the value of the key, if not present, return 0 and add 1
     return result
 
 list_another_numbers = ['a', 'b', 'c', 'a', 'b', 'a']

@@ -72,3 +72,20 @@ def calculator():
 
 calculator()
 
+
+# A simple example of a decorator
+
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        print('The function decorated is ', func.__name__)
+        return func(*args, **kwargs)
+    return wrapper
+
+
+@decorator
+def add(x,y):
+    return x+y
+
+
+print(add(2,3))
+

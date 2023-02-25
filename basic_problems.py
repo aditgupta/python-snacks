@@ -9,8 +9,8 @@ def count_items(sequence) -> dict:
             result[item] = 1
     return result
 
-list_numbers = ['a', 'b', 'c', 'a', 'b', 'a']
-print(count_items(list_numbers))
+list_alphabets = ['a', 'b', 'c', 'a', 'b', 'a']
+print(count_items(list_alphabets))
 
 
 def count_items_another(sequence) -> dict:
@@ -19,5 +19,13 @@ def count_items_another(sequence) -> dict:
         result[item] = result.get(item, 0) + 1  # get the value of the key, if not present, return 0 and add 1
     return result
 
-list_another_numbers = ['a', 'b', 'c', 'a', 'b', 'a']
-print(count_items_another(list_another_numbers))
+
+list_another_alphabets = ['a', 'b', 'c', 'a', 'b', 'a']
+print(count_items_another(list_another_alphabets))
+
+# We can achieve the same result using Counter
+
+
+from collections import Counter
+print(Counter(list_another_alphabets))
+

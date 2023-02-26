@@ -30,3 +30,6 @@ If you'd like to contribute to Python Snacks, we'd love to have your help! You c
 - Updating documentation or README files
 
 To contribute, simply fork the repository, make your changes, and submit a pull request. We'll review your changes and merge them into the repository if they're a good fit.
+
+## License
+Python Snacks is released under the [MIT License](https://opensource.org/licenses/MIT), which means you're free to use, modify, and distribute the code however you like. However, we ask that you please include a link back to this repository if you use any of the code or examples in your own projects.

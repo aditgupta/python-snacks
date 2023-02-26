@@ -28,7 +28,3 @@ print(count_items_another(list_another_alphabets))
 
 from collections import Counter
 print(Counter(list_another_alphabets))
-
-
-# Given a sentence and a word, write a function that returns the number of times the word appears
-# in the sentence #c:red ^^without^^ using the `count()` method

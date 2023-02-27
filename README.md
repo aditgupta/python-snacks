@@ -14,7 +14,12 @@ If you find a problem that you're particularly interested in, you can also try s
 
 ## Problem Categories
 
-I have organised the problems in my repository into three categories based on their difficulty. The L1 problems are basic, the L2 problems are intermediate, and the L3 problems are advanced. Each problem has its own folder, which includes a README file with a code visualisation for the problem.
+I have organised the problems in my repository into three categories based on their difficulty. 
+- L1 problems are basic
+- L2 problems are intermediate
+- L3 problems are advanced. 
+
+Each problem has its own folder, which includes a README file with a code visualisation for the problem.
 
 ## Core Concepts
 

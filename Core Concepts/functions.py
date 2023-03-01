@@ -2,6 +2,8 @@
 
 # A higher-order function
 
+# --------------------------------------------
+
 
 def calculate(func, x, y):  # A simple example of a higher-order function
     return func(x, y)
@@ -13,8 +15,9 @@ def add(x, y):
 
 print(calculate(add, 2, 3))  # prints 5
 
-
+# --------------------------------------------
 # An inner function
+
 
 def outer(name):  # This is an outer function
     def inner(intro):   # This is an inner function that remembers the scope of the outer function
@@ -26,8 +29,9 @@ def outer(name):  # This is an outer function
 person = outer("John")
 person("I am a developer")
 
-
+# --------------------------------------------
 # A simple calculator using inner functions
+
 
 def calculator():
     def add(x, y):
@@ -72,6 +76,26 @@ def calculator():
 
 calculator()
 
+# --------------------------------------------
+# An example of an inner function modifying the scope of the outer function
+# If the inner function modifies a variable that is defined in the enclosing scope without using the nonlocal keyword,
+# it will create a new variable in the inner function's scope
+
+
+def outer_func():
+    x = 2
+    print("x is ", x , "from the outer function")
+
+    def inner_func():
+        nonlocal x  # With nonlocal, you can modify the scope of the outer function
+        x = 5
+    inner_func()
+    print("x is now ", x, "from the  modified value of inner function")
+
+
+outer_func()
+
+# --------------------------------------------
 
 # A simple example of a decorator
 
@@ -89,4 +113,5 @@ def add(x,y):
 
 print(add(2,3))
 
+# --------------------------------------------
 

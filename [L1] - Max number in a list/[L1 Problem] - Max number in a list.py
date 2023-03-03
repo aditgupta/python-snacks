@@ -11,5 +11,5 @@ def max_number(numbers):
     return max_num
 
 
-list_numbers = [2, 10, 5, 1, 3, 4, 6, 7, 8, 9]
+list_numbers = [-2, 10, 5, 1, 3, 4, 6, 7, 8, 9]
 print(max_number(list_numbers))

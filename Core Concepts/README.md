@@ -1,6 +1,13 @@
 # Core Concepts
 
 ## Functions
+I've covered the following topics:
+ - Higher-order function
+ - Inner functions
+ - Inner function with *nonlocal* keyword
+ - A simple decorator
+ - A simple recursion
+
 ### Higher-order functions
 A basic example of a higher-order function
 

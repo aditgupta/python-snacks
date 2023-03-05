@@ -115,3 +115,13 @@ print(add(2,3))
 
 # --------------------------------------------
 
+# A simple example of recursion
+
+def sum_natual_numbers(n):
+    if n == 1:
+        return 1
+    else:
+        return n + sum_natual_numbers(n-1)
+
+
+print(sum_natual_numbers(10))

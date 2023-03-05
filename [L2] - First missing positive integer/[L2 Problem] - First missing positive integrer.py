@@ -30,7 +30,7 @@ def missing_positive_integer(numbers):
     length_list = len(numbers)
     i = 0
 
-    # arrange positive numbers sequentially - check if it's positive and at the right index
+    # Begin by arranging positive numbers sequentially - check if it's positive and at the right index
     # If not at right index, position it at the right index sequentially
 
     while i < length_list:
@@ -39,7 +39,7 @@ def missing_positive_integer(numbers):
         else:
             i += 1
 
-        # find the first missing positive integer
+        # once you've a sorted list, check if the list is missing a number
     for i in range(length_list):
         if numbers[i] != i+1:  # if list is [-1, 1, 3, 4] then 2 is missing
             return i+1  # return the missing number

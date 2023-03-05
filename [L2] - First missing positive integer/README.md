@@ -7,7 +7,7 @@ present, it should return the next positive integer. If the input list is empty 
 the function should return 1.
 
 ```
-Input: [-1, 1, 0]`
+Input: [-1, 1, 0]
 Output: 2
 
 Input: [2, 3, -1, -2]

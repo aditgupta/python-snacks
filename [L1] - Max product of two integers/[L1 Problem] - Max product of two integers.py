@@ -13,7 +13,6 @@ Output:
 
 """
 
-
 def maximum_product(numbers):
     sorted_list = sorted(numbers)
     # we will take the product of the first and last two integers so that we account for both negative and positive integers

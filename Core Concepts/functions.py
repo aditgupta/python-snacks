@@ -125,3 +125,24 @@ def sum_natual_numbers(n):
 
 
 print(sum_natual_numbers(10))
+
+# --------------------------------------------
+
+# A simple example of a higher-order function
+
+
+def higher_func_calculator(operator, x, y):
+    return operator(x,y)
+
+
+def addition(x,y):
+    return x+y
+
+
+def multiplication(x,y):
+    return x*y
+
+
+print(higher_func_calculator(addition, 2, 3))
+print(higher_func_calculator(multiplication, 2, 3))
+
